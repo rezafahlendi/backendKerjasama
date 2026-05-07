@@ -14,6 +14,7 @@ public function up(): void
     Schema::create('tb_kerjasama', function (Blueprint $table) {
         $table->id();
         $table->string('nama');
+        $table->string('data');
         $table->timestamps();
     });
 }
